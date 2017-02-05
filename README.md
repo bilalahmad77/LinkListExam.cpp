@@ -95,7 +95,10 @@ list.addatbeg(6);
 
 cout<<"\n Elements in list before reversing:";
 list.display();
+cout<<"\n No of elements in the linked list:"<<list.count();
 
+list.reverse();
 cout<<"\n Elements in list after reversing:";
 list.display();
+cout<<"\n No of elements in the linked list:"<<list.count();
 }
